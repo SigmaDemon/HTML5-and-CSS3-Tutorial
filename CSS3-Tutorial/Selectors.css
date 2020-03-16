@@ -1,0 +1,5 @@
+/* This is used to pick the li element to be transformed */
+/* If there is another table of options present, the number inside of bracket will apply the changes to the table that has that number */
+.links li:nth-child(3) {
+  color: rgb(25, 156, 216);
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sebastian Iulian Poiana | Junior Developer in Becoming</title>
+    <meat
+      name="description"
+      content="Dev Ed is a professional developer in HTML5, CSS3 and JavaScript with ReactJS"
+    />
+    <meta charset="utf-8" />
+
+    <!-- This line makes the website appear first on Google search page -->
+    <meta name="robots" content="index,follow" />
+
+    <!-- This should make the icon appear -->
+    <link rel="icon" href="img/icon.ico" />
+
+    <!-- This line is used to add responsiveness to the website when used on a mobile phone -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <h1>Hello there Form!</h1>
+    <!-- This line 'action="link to file"' is used to connect pages within a form -->
+    <!-- The connection to the page is made AFTER introducing the details and clicking on the Submit button -->
+    <!-- THIS is how I can do a Login Form :)))) -->
+    <form action="/index.html">
+      <!-- The 'label' tag makes it so that the user can build a label -->
+      <!-- The 'input' tag is used to make the username text field -->
+      <!-- The 'maxlength' field is used to limit the number of characters that can be introduced in the text field -->
+      <!-- Using 'minlength' at least this number of characters must be introduced in the text field -->
+      <!-- The 'autocomplete="off"' line makes it so that the text fields cannot have the details introduced automatically (especially if added within the 'form' tag) -->
+      <!-- The 'placeholder="text"' line makes transparent text appear on the text field -->
+      <!-- The 'required' value is used to not let the user login until a username is introduced -->
+      <label for="user">Username</label>
+      <input
+        required
+        minlength="3"
+        maxlength="30"
+        name="user"
+        type="text"
+        id="user"
+        placeholder="Please Enter Username"
+      />
+
+      <!-- The 'name' tag makes it so that only the fields that have 'name' on them will get submitted in the form -->
+      <!-- The 'name' tag also adds the credentials the the URL link like this: http://127.0.0.1:5500/index.html?user=[username]&email=[email] -->
+      <!-- Also Perfect for a Login Form :)))))) -->
+      <label>Email</label>
+      <input name="email" type="email" />
+
+      <!-- The 'select' tag is used to create an empty dropdown -->
+      <!-- To make the dropdown display items, the 'option' tag is used -->
+      <!-- These two tags are good for a purchase form on a products page! :)))) -->
+      <!-- The completed 'value' field makes the URL ALSO diplay the product=[value name] -->
+      <select name="products" id="products">
+        <option value="">Please Choose Device</option>
+        <option value="Macbook 2018">Macbook</option>
+        <option value="Iphone 2018">Iphone</option>
+        <option value="Samsung Galaxy 2018">Samsung</option>
+      </select>
+
+      <!-- This 'type="radio"' is used to build a set of radio buttons and choices for a products form -->
+      <input type="radio" name="products" value="macbook" />
+      <input type="radio" name="products" value="iphone" />
+      <input type="radio" name="products" value="amazon" />
+      <input type="radio" name="products" value="ebay" />
+
+      <!-- This 'textarea' tag makes a large text field where a user can write a longer message -->
+      <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+      <!-- The 'button' tag is used to build a button that can only be clicked until adding the functionalities manually -->
+      <!-- Actually, when the user clicks on the button, the information introduced in the text fields will be cleared and submitted -->
+      <!-- An error message will be displayed if the information added is NOT an email for example -->
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

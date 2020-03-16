@@ -1,0 +1,14 @@
+/* CSS elements can be selected using their tags */
+h3 {
+  color: rgb(26, 201, 201);
+}
+
+/* CSS elements can also be selected using the '.' for their class */
+.first-title {
+  color: crimson;
+}
+
+/* For IDs, the '#' symbol is used to specify the name */
+#youtube-link {
+  color: darkorange;
+}

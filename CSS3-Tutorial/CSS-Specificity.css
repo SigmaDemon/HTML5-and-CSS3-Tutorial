@@ -1,0 +1,9 @@
+/* The last tile with the same name gets applied, when they have similar heading */
+
+h1 {
+  color: coral;
+}
+
+h1 {
+  color: cornflowerblue;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sebastian Iulian Poiana | Junior Developer in Becoming</title>
+    <meat
+      name="description"
+      content="Dev Ed is a professional developer in HTML5, CSS3 and JavaScript with ReactJS"
+    />
+    <meta charset="utf-8" />
+
+    <!-- This line makes the website appear first on Google search page -->
+    <meta name="robots" content="index,follow" />
+
+    <!-- This should make the icon appear -->
+    <link rel="icon" href="img/icon.ico" />
+
+    <!-- This line is used to add responsiveness to the website when used on a mobile phone -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <!-- THIS LESSON IS VERY IMPORTANT - 'DIV' CLASS-->
+    <!-- The '<div>' tag is used as a wrapper to organise everything together -->
+    <!-- The 'header' tag is used to wrap introduction content within it into building a header -->
+    <!-- Div has been replaced with Header and the div class below has been replaced with Nav -->  
+    <!-- In HTML5, THESE are the correct semantics because div has been replaced with appropriate and fit for purpose semantics -->
+    <!-- Of course, divs can still be used but not to build the main sections (semantic purposes), but as supportive tags within the content for non-semantic purposes, such as styling -->  
+    <!-- The 'header' tag can still be used within even within other tags, such as 'article' -->
+    <header>
+    <h1>Hello there HTML5 Semantics!</h1>
+      <!-- By typing ".nav" it creates the entire div with the class name 'nav' (same for other words instead of nav) -->
+      <nav>
+      <ul>
+        <li>Home</li>
+        <li>Contact Us</li>
+        <li>About Us</li>
+        <li>Projects</li>
+        <h2>This is Us!</h2>
+        <p>Lorem ipsum...</p>
+      </nav>
+      </ul>
+    </header>
+
+<!-- It is used once within our document covering the main content that I choose to highlight -->
+<main>
+
+    <!-- The 'section' tag is used to group together elements with some content -->
+    <!-- It is used to group in sections of the website -->
+    <section>
+      <h2>Here is my image gallery!</h2>
+        <!-- The div can be used to host ids and classes -->
+        <!-- This can be used to build a gallery web page very fast! :))))) -->
+        <!-- Divs are non-semanthic and have no special meaning at all, it is just used to group consecutive elements together -->
+        <!-- The '<span>' tag is used for pretty much the same thing -->
+        <div class="gallery">
+          <div class="row1">
+          <img src="" alt="" />
+          <img src="" alt="" />
+          </div>
+          <div class="row2">
+          <img src="" alt="" />
+          <img src="" alt="" />
+          </div>
+        </div>
+    </section>
+
+    <section>
+        <!-- The article tag is used to implement a number of articles to the web page -->
+        <article>
+          <h2>Article 1</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non saepe est fugit. Repellendus voluptatem ratione at in non magni cum sapiente velit laboriosam, consectetur iste rerum repudiandae doloremque, ipsam aliquid.</p>
+        </article>
+
+        <article>
+          <h2>Article 2</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non saepe est fugit. Repellendus voluptatem ratione at in non magni cum sapiente velit laboriosam, consectetur iste rerum repudiandae doloremque, ipsam aliquid.</p>
+        </article>
+
+        <article>
+          <h2>Article 3</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non saepe est fugit. Repellendus voluptatem ratione at in non magni cum sapiente velit laboriosam, consectetur iste rerum repudiandae doloremque, ipsam aliquid.</p>
+        </article>
+
+        <!-- HTML5 has this 'figure' tag to introduce images into without using a 'div' tag -->
+        <!-- This tag helps us add semantic to our images with captions -->
+        <figure>
+          <img src="" alt="mountain">
+          <!-- The 'figcaption' tag is used to add text bellow or above the figure to represent its meaning -->
+          <figcaption>Nature Picture by Sebastian Iulian Poiana</figcaption>
+        </figure>
+    </section>
+
+    <!-- The 'aside' tag is used to build a sidebar that contains content related to the surrounding content -->
+    <!--Shortcut: If I type "Lorem", it will post the entire random text for me! :)) -->
+    <aside>
+      <h2>My Little Book</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatum suscipit quia odit illum a sunt beatae et? Sed vero quod eveniet ipsum cupiditate recusandae facere, voluptatibus fugit error quae!</p>
+    </aside>
+
+</main>
+
+    <!-- The footer is used to give some more information about the website or social links at the bottom line of the page -->
+    <!-- It is also used as a replacement for the div tag in HTML5 -->
+    <footer>
+      <p>Created in 2018 Copyright Sebastian Iulian Poiana</p>
+      <ul>
+        <li><a href="facebook.com/">Facebook</a></li>
+      </ul>
+    </footer>
+
+  </body>
+</html>
